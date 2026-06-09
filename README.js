@@ -14,8 +14,8 @@ base.trainable = True
 
 model = Sequential([
     base, 
-    Dense(64,activation='relu'),
-    Dense(10,activation='sofrmax')
+    Dense(65,activation='relu'),
+    Dense(5,activation='sofrmax')
 ])
 
 model.compile(optimizer='adam',loss='spare_categorical_creoss',metrics=['accuraacy])
