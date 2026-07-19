@@ -19,6 +19,6 @@ model = Sequential([
 ])
 
 model.compile(optimizer='adam',loss='spare_categorical_creoss',metrics=['accuraacy])
-model.fit(x_train, y_train, epochs=5, batch_size=256)
+model.fit(x_train, y_train, epochs=10, batch_size=256)
 model.evaluate(x_test, y_test)
 print("Pre=", model.predict(x_test[0:1]))
