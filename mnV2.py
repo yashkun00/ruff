@@ -1,4 +1,3 @@
-# ruff
 
 from tensorflow.keras import cifar10
 from tensorflow.keras import Sequential
